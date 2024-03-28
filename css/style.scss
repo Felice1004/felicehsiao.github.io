@@ -21,6 +21,8 @@ $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
 %merriweather { font-family: 'Merriweather', serif; }
+%roboto { font-family: 'Roboto', serif; }
+%lexend {font-family: 'Lexend', serif;};
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -39,8 +41,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %merriweather;
-  font-weight: 700;
+  @extend %opensans; //!optional;
+  font-weight: 200;
 }
 
 article {
@@ -248,7 +250,7 @@ button.btn, input.btn {
 }
 
 .content-wrap {
-  margin-bottom: 8em;
+  margin-bottom: 2em;
   @include bp-xsmall {
     margin-bottom: 2em;
   }

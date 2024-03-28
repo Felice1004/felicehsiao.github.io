@@ -6,8 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            {% include contact-form.html %}
-            <!-- {% include contact-modal.html %} -->
+           
 
             {% if site.section_title != '' %}
             <h2 class="section-title text-center">{{ site.section_title }}</h2>
@@ -31,10 +30,11 @@
             {% endfor %}
 
             {% include pagination.html %}
+            {% include contact-form.html %}
 
           </div>
         </div>
       </div>
     </main>
-
+    
 {% include footer.html %}
