@@ -1,0 +1,48 @@
+<style>
+  .contact-section {
+    width: 1200px;
+    margin: 0 auto; /* This centers the section */
+    padding: 200px; /* Optional: Adds some spacing inside the section */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for better separation */
+  }
+
+  /* Adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .contact-section {
+      width: 90%; /* Adjust width on smaller screens */
+    }
+  }
+
+  .contact-title {
+    text-align: center;
+    font-size: 24px; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Adds space between the title and the form */
+  }
+</style>
+
+<div id="contact" class="contact-section">
+  <div class="contact-content">
+
+    <h2 class="contact-title">聯絡我們</h2> <!-- Header added here -->
+
+    <div class="contact-body">
+      <form class="form-horizontal form-contact clearfix" action="https://formspree.io/f/xvoewaww" method="POST">
+        <div class="form-group">
+          <input type="name" class="name form-control" placeholder="您的姓名/單位">
+          <br>
+          <input type="email" class="email form-control" name="_replyto" placeholder="您的信箱">
+        </div>
+
+        <div class="form-group">
+          <!-- <label class="message-label">Contact us,</label> -->
+          <textarea class="message form-control" rows="8" name="body" placeholder="請簡述您的諮詢項目/專案需求"></textarea>
+        </div>
+
+       
+
+        <input type="submit" class="btn btn-default" style="float: right;" value="Send">
+      </form>
+    </div>
+
+  </div>
+</div>
