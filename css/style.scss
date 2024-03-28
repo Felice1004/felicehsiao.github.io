@@ -21,8 +21,7 @@ $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
 %merriweather { font-family: 'Merriweather', serif; }
-%roboto { font-family: 'Roboto', serif; }
-%lexend {font-family: 'Lexend', serif;};
+%montserrat { font-family: 'Montserrat', serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -36,7 +35,7 @@ $secondary: #FF7B7B;
 
 body {
   background-color: #e9edf0;
-  @extend %opensans;
+  @extend %montserrat;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -114,7 +113,7 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
+  margin: 10em 0 0em 0;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
@@ -208,7 +207,7 @@ button.btn, input.btn {
 	3.0 Posts
 --------------------------------------------------------------*/
 #portfolio .container {
-  margin-top: 10em;
+  margin-top: 1em;
   @include bp-xsmall {
     margin-top: 2em;
   }
