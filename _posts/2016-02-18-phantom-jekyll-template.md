@@ -1,10 +1,10 @@
 ---
 layout: inner
 position: left
-title: 'Phantom'
+title: '影像/語音 <br> 模型訓練及驗證'
 date: 2016-02-20 21:15:00
 categories: development design
-tags: Jekyll Sass Bootstrap
+tags: Python Pytorch
 featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
 project_link: 'https://github.com/jamigibbs'
 button_icon: 'flask'
